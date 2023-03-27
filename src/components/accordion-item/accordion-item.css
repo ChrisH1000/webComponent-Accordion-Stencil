@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+}
+:host li {
+  list-style: none;
+}
+:host h4 {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+:host div {
+  padding: 0.5rem;
+  display: none;
+  background-color: #f5f5f5;
+}
+:host div.open {
+  display: block;
+}
